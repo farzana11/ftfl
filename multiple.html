@@ -1,0 +1,62 @@
+<h4>Registration Form</h4>
+<hr>
+
+<form action="add_in.php" method="post">
+
+    <label>Full Name</label><span>*</span>
+    <input type="text" name="fname" /></br>
+
+
+    <label>Hobby</label></br>
+    <input type="checkbox" name="hobby_reading" value="Reading">Reading,
+    <input type="checkbox" name="hobby_gardening" value="Gardening">Gardening,
+    <input type="checkbox" name="hobby_travelling" value="Travelling">Travelling,
+    <input type="checkbox" name="hobby_fishing" value="Fishing">Fishing</br>
+
+
+
+
+    <label>Food</label></br>
+    <input type="checkbox" name="food[]" value="Burger">Burger</br>
+    <input type="checkbox" name="food[]" value="Pizza">Pizza</br>
+    <input type="checkbox" name="food[]" value="Chicken">Chicken</br>
+    <input type="checkbox" name="food[]" value="Beef">Beef</br>
+
+
+
+
+
+
+    <label>Preferred job location</label><span>*</span>
+
+    <select name="city[]" multiple="multiple">
+        <option> - location - </option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Khulna">Khulna</option>
+        <option value="Shylet">Shylet</option>
+        <option value="Barisal">Barisal</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Chittagong">Chittagong</option>
+        <option value="Rangpur">Rangpur</option>
+        <option value="Comilla">Comilla</option>
+        <option value="Noakhali">Noakhali</option>
+        <option value="Feni">Feni</option>
+        <option value="Pabna">Pabna</option>
+        <option value="Cox's bazar">cox's bazar</option>
+        <option value="Dinajpur">Dinajpur</option>
+        <option value="Jamalpur">Jamalpur</option>
+        <option value="Kustia">Kustia</option>
+        <option value="Rangamati">Rangamati</option>
+        <option value="Mymensingh">Mymensingh</option>
+        <option value="Faridpur">Faridpur</option>
+        <option value="Gaibandha">Gaibandha</option>
+        <option value="Vula">Vula</option>
+
+
+    </select></br>
+
+
+
+    <button type="submit" align="right">Submit</button>
+
+</form>
